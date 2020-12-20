@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.form-inline{
+  text-align: left;
+}
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: absolute;
+  left: 250px;
+  width: 250px;
+  height: 1500px;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474F;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.fa-paperclip{
+  font-size: 26px;
+  cursor: pointer;
+    transform: rotate(45deg);
+}
+.schotFile{
+  margin-left: -60px;
+}
+#nazvPlat{
+  height: 100px;;
+}
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+.rad{
+  margin: 7px;
+}
+#nomer{
+  width: 160px;;
+  margin-right: 10px;
+}
+#datepicker{
+  width: 110px;
+}
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+.day,.prev,.next{cursor:pointer}
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav li{
+  margin: 20px;
+}
+.input-group-text{
+
+}
+.pagination{
+  margin: 0;
+}
+#pi1{
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+#pi5{
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+input{
+}
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.right,.head,.rekv,.osn{
+  border: 3px solid #ffebe1;
+  border-radius: 2%;
+}
+
+.page-link{
+  color: gray;
+  border: 1px solid #b3aaaa;
+}
+.page-link:hover{
+  border: 1px solid gray;
+}
