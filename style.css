@@ -1,4 +1,31 @@
-
+@media only screen and (max-width: 680px) {
+  * {
+    font-size: 10px;
+   }
+   table * {
+    font-size: 8px;
+  }
+  
+}
+@media only screen and (min-width: 1000px) {
+  body {
+   font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 680px) {
+  body {
+  font-size: 13px;
+ }
+}
+@media screen and (max-width: 780px) and (min-width: 568px) {
+ .margTop{
+   margin-top: 10px;;
+ }
+}
+pre{
+  background-color: black;
+  color: white;
+}
 #sidebar {
   height: 1500px;
   background: #37474F;
@@ -8,8 +35,12 @@
   cursor: pointer;
     transform: rotate(45deg);
 }
-.schotFile{
-  margin-left: -40px;
+.gj-icon{
+  font-size: 158%!important;
+  top: 5px!important;
+}
+#showHide{
+  margin-left: 9%;
 }
 #nazvPlat{
   height: 100px;;
@@ -33,7 +64,12 @@
   border: 3px solid #ffebe1;
   border-radius: 2%;
 }
+.dobavit{
+  background-color: white;
+  color: black;
+  padding: 5px;;
 
+}
 .page-link{
   color: gray;
   border: 1px solid #b3aaaa;
@@ -64,7 +100,7 @@
 	margin: 0;
 }
 #kodStati{
-  width: 400px;;
+  /* width: 400px;; */
 }
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
