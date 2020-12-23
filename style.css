@@ -45,20 +45,13 @@ pre{
 #nazvPlat{
   height: 100px;;
 }
-.pagination li a:focus{
-  background-color: #007bff;
-  color: white    ;
+.pi1{
+  border-top-left-radius: 50%!important;
+  border-bottom-left-radius: 50%!important;
 }
-#removeId{
-  cursor: pointer;
-}
-#pi1{
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
-}
-#pi5{
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+.pi5{
+  border-top-right-radius: 50%!important;
+  border-bottom-right-radius: 50%!important;
 }
 .right,.rekv,.osn{
   border: 3px solid #ffebe1;
@@ -88,7 +81,6 @@ pre{
 	width: 252px;
 }
 .tt-suggestion {
-	font-size: 22px; 
 	padding: 3px 20px;
 }
 .tt-suggestion:hover {
@@ -99,13 +91,10 @@ pre{
 .tt-suggestion p {
 	margin: 0;
 }
-#kodStati{
-  /* width: 400px;; */
-}
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
-#myTable tbody tr input:focus{
+#Table tbody tr input:focus{
   outline: 3px dotted green;
 }
 #myTable tbody tr input{
@@ -119,4 +108,11 @@ input[type=number]::-webkit-inner-spin-button {
 #myTable tbody tr td{
   margin: 0;
   padding: 0;
+}
+.fa-trash{
+  cursor: pointer;
+}
+
+textarea{
+  resize: none;
 }

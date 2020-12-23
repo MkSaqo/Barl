@@ -14,7 +14,7 @@
 <script type="text/javascript">
     show = false;
     $('#showHide').click(() => {
-        console.log($("#sidebar").attr('class'))
+        // console.log($("#sidebar").attr('class'))
         if (show) {
             $("#sidebar").attr("class", "d-none")
             show = false;
@@ -56,7 +56,6 @@
                 data: {
                     q: query
                 },
-                type: "POST",
                 success: (data) => {
                     processAsync(JSON.parse(data));
                 }
@@ -67,7 +66,6 @@
     $('#proshuOpl').typeahead({
         highlight: true
     }, {
-        limit: 5,
         source: getFilms()
     });
 
@@ -76,17 +74,54 @@
     $('#kodStati').typeahead({
         highlight: true
     }, {
-        name: 'states',
         source: getFilms()
     });
 
     function remId(i) {
         $('#myTable tbody tr[value=' + i + ']').remove();
     }
+    var check = (checked, cat = false) => {
+        if (cat) {
+            $('#categorii' + checked).find('input').prop('checked', true);
+            var otherRadios = $(".ch1 div")
+            for (var i = 0; i < otherRadios.length; i++) {
+                $(otherRadios[i]).attr('style', "background-color: white;color: gray");
+            }
+            $('#categorii' + checked).attr('style', "background-color: #007bff;color: white");
+
+        } else {
+
+            $('#stati' + checked).find('input').prop('checked', true);
+            var otherRadios = $(".ch div")
+            for (var i = 0; i < otherRadios.length; i++) {
+                $(otherRadios[i]).attr('style', "background-color: white;color: gray");
+            }
+            $('#stati' + checked).attr('style', "background-color: #007bff;color: white");
+        }
+    }
+
+    function remIdShow(i) {
+        $.ajax({
+            url: "req.php",
+            type: 'post',
+            data: {
+                removeId: i
+            },
+            success: (data) => {
+                console.log(data)
+                if (data == "removed") {
+                    $('#showTable tbody tr[value=' + i + ']').remove();
+
+                }
+
+            }
+
+        })
+    }
     var i = 0;
     $("#addRow").click(function() {
         i++;
-        var row = "<tr value='" + i + "'><td><input class='itogo' type='text'></td><td><input class='itogColSum' type='number'></td><td><input class='itogCenSum' type='number'></td><td><input class='itogStoimSum' type='number'></td><td><input type='number'></td><td><input type='text'></td><td><i id='removeId' value='" + i + "' class='fa fa-lg fa-trash' onclick='remId(" + i + ")' aria-hidden='true'></i></td> </tr>"
+        var row = "<tr value='" + i + "'><td><input class='itogo' type='text'></td><td><input class='itogColSum' type='number'></td><td><input class='itogCenSum' type='number'></td><td><input class='itogStoimSum' type='number'></td><td><input type='number'></td><td><input type='text'></td><td><i value='" + i + "' class='fa fa-lg fa-trash' onclick='remId(" + i + ")' aria-hidden='true'></i></td> </tr>"
         $(row).insertBefore(".itog");
     });
     $('#myTableDiv').keyup(() => {
