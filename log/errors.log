@@ -1,0 +1,28 @@
+[24-Dec-2020 12:47:30 Asia/Dubai] PHP Notice:  Undefined index: zakrDoc1 in /var/www/html/bar/router.php on line 31
+[24-Dec-2020 12:47:30 Asia/Dubai] PHP Notice:  Undefined index: dogFile1 in /var/www/html/bar/router.php on line 39
+[24-Dec-2020 12:47:30 Asia/Dubai] PHP Notice:  Undefined index: schotFile1 in /var/www/html/bar/router.php on line 46
+[24-Dec-2020 12:47:52 Asia/Dubai] PHP Notice:  Undefined index: zakrDoc1 in /var/www/html/bar/router.php on line 31
+[24-Dec-2020 12:47:52 Asia/Dubai] PHP Notice:  Undefined index: dogFile1 in /var/www/html/bar/router.php on line 39
+[24-Dec-2020 12:47:52 Asia/Dubai] PHP Notice:  Undefined index: schotFile1 in /var/www/html/bar/router.php on line 46
+[24-Dec-2020 12:48:29 Asia/Dubai] PHP Notice:  Undefined index: zakrDoc1 in /var/www/html/bar/router.php on line 31
+[24-Dec-2020 12:48:29 Asia/Dubai] PHP Notice:  Undefined index: dogFile1 in /var/www/html/bar/router.php on line 39
+[24-Dec-2020 12:48:29 Asia/Dubai] PHP Notice:  Undefined index: schotFile1 in /var/www/html/bar/router.php on line 46
+[24-Dec-2020 12:51:21 Asia/Dubai] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /var/www/html/bar/public/index.php on line 49
+[24-Dec-2020 12:51:21 Asia/Dubai] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/bar/public/index.php on line 49
+[24-Dec-2020 12:52:04 Asia/Dubai] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /var/www/html/bar/public/add.php on line 1
+[24-Dec-2020 12:52:04 Asia/Dubai] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/bar/public/add.php on line 1
+[24-Dec-2020 12:52:04 Asia/Dubai] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /var/www/html/bar/public/add.php on line 244
+[24-Dec-2020 12:52:04 Asia/Dubai] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/bar/public/add.php on line 244
+[24-Dec-2020 12:53:00 Asia/Dubai] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /var/www/html/bar/public/edit.php on line 2
+[24-Dec-2020 12:53:00 Asia/Dubai] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/bar/public/edit.php on line 2
+[24-Dec-2020 12:53:00 Asia/Dubai] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /var/www/html/bar/public/edit.php on line 259
+[24-Dec-2020 12:53:00 Asia/Dubai] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/bar/public/edit.php on line 259
+[24-Dec-2020 13:03:46 Asia/Dubai] PHP Notice:  Undefined index: zakrDoc1 in /var/www/html/barl/template/router.php on line 31
+[24-Dec-2020 13:03:46 Asia/Dubai] PHP Notice:  Undefined index: dogFile1 in /var/www/html/barl/template/router.php on line 39
+[24-Dec-2020 13:03:46 Asia/Dubai] PHP Notice:  Undefined index: schotFile1 in /var/www/html/barl/template/router.php on line 46
+[24-Dec-2020 13:04:09 Asia/Dubai] PHP Notice:  Undefined index: zakrDoc1 in /var/www/html/barl/template/router.php on line 31
+[24-Dec-2020 13:04:09 Asia/Dubai] PHP Notice:  Undefined index: dogFile1 in /var/www/html/barl/template/router.php on line 39
+[24-Dec-2020 13:04:09 Asia/Dubai] PHP Notice:  Undefined index: schotFile1 in /var/www/html/barl/template/router.php on line 46
+[24-Dec-2020 13:07:06 Asia/Dubai] PHP Notice:  Undefined index: zakrDoc1 in /var/www/html/barl/public/router.php on line 31
+[24-Dec-2020 13:07:06 Asia/Dubai] PHP Notice:  Undefined index: dogFile1 in /var/www/html/barl/public/router.php on line 39
+[24-Dec-2020 13:07:06 Asia/Dubai] PHP Notice:  Undefined index: schotFile1 in /var/www/html/barl/public/router.php on line 46

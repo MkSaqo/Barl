@@ -1,0 +1,21 @@
+{
+    "name": "rtcmulticonnection",
+    "description": "",
+    "version": "3.7.0",
+    "authors": [
+       
+    ],
+    "main": "RTCMultiConnection.js",
+    "keywords": [
+
+    ],
+    "repository": {
+    },
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "test",
+        "tests"
+    ]
+}
