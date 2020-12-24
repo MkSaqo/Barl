@@ -1,6 +1,6 @@
 <?php include "../template/header.php" ?>
 
-<form action=" router.php" method="post" enctype="multipart/form-data">
+<form action="router.php" method="post" enctype="multipart/form-data">
   <div class="cont1 row m-1">
 
     <div class="form-group d-xl-flex d-sm-flex col-xl-3 col-md-3 col">
